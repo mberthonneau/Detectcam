@@ -1,0 +1,31 @@
+{
+    "yolo": {
+        "config_path": "yolov4-tiny.cfg",
+        "weights_path": "yolov4-tiny.weights",
+        "names_path": "coco.names",
+        "confidence_threshold": 0.3,
+        "target_classes": [
+            "person",
+            "bicycle",
+            "car",
+            "motorcycle"
+        ],
+        "batch_size": 5,
+        "input_size": [
+            640,
+            480
+        ]
+    },
+    "save": {
+        "output_dir": "F:/HOMICIDE_DOUANENEZ/IMAGES_DETECT",
+        "format": "jpg",
+        "save_detections_only": true,
+        "create_subfolders": false
+    },
+    "display": {
+        "window_width_ratio": 0.8,
+        "window_height_ratio": 0.8,
+        "canvas_width_ratio": 0.6,
+        "canvas_height_ratio": 0.6
+    }
+}
