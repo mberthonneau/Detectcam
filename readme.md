@@ -1,4 +1,4 @@
-# DetectCam v0.5
+# DetectCam v0.5.1
 
 DetectCam est une application Windows de détection d'objets en temps réel utilisant YOLO (You Only Look Once). Elle analyse des vidéos et détecte différents types d'objets dans des zones définies par l'utilisateur (ROI - Regions Of Interest).
 
